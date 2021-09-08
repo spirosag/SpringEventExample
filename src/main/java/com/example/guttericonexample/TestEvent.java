@@ -1,7 +1,9 @@
 package com.example.guttericonexample;
 
+import lombok.Value;
 import org.springframework.context.ApplicationEvent;
 
+@Value
 public class TestEvent extends ApplicationEvent {
     String name;
 
